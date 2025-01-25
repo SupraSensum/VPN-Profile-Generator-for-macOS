@@ -11,8 +11,8 @@
 
 # --- Adjust these to your needs ---
 REMOTE_ID="jumptoserver.com"
-USERNAME="someUsername"
-PASSWORD="somePassword"
+USERNAME="bittacoffee@gmail.com"
+PASSWORD="4w7S8b8HNs9DYPyh"
 CSV_FILE="FastestVPN Servers.csv"
 OUTPUT="my_vpn.mobileconfig"
 ORG_NAME="MyOrg"
@@ -54,6 +54,8 @@ tail -n +2 "$CSV_FILE" | while IFS=, read -r NAME SERVER; do
 
   # Skip lines that don't have valid data
   [[ -z "$NAME" || -z "$SERVER" ]] && continue
+
+  echo "Processing: $NAME ($SERVER)"
 
 cat >> "$OUTPUT" <<EOF
     <dict>
