@@ -11,8 +11,8 @@
 
 # --- Adjust these to your needs ---
 REMOTE_ID="jumptoserver.com"
-USERNAME="bittacoffee@gmail.com"
-PASSWORD="4w7S8b8HNs9DYPyh"
+USERNAME="someUsername"
+PASSWORD="somePassword"
 CSV_FILE="FastestVPN Servers.csv"
 OUTPUT="my_vpn.mobileconfig"
 ORG_NAME="MyOrg"
