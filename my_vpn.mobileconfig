@@ -1,0 +1,3069 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <!-- Profile metadata -->
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+
+  <!-- Adding Organization helps on some macOS versions -->
+  <key>PayloadOrganization</key>
+  <string>MyOrg</string>
+
+  <key>PayloadIdentifier</key>
+  <string>com.yourcompany.vpn</string>
+  <key>PayloadUUID</key>
+  <string>48F2324B-4430-4AE4-9949-9AD1A265E46F</string>
+  <key>PayloadDisplayName</key>
+  <string>Multiple IKEv2 VPNs</string>
+
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.DFAEE84B-9E0D-4F5C-A4EE-05649FEA4DC8</string>
+      <key>PayloadUUID</key>
+      <string>00EC4748-73B6-4CC7-A975-BDD99FFD4795</string>
+      <key>PayloadDisplayName</key>
+      <string>Australia - Sydney - au-stream</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Australia - Sydney - au-stream</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>au-stream.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.106D8606-6EE8-43F6-9853-F4955EA8FC8D</string>
+      <key>PayloadUUID</key>
+      <string>2CBE57DA-F9A7-4172-BAC6-5350A99718BD</string>
+      <key>PayloadDisplayName</key>
+      <string>Australia - Sydney - au-01</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Australia - Sydney - au-01</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>au-01.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.F848982A-008F-4DEF-97ED-BC30EA206EFD</string>
+      <key>PayloadUUID</key>
+      <string>2B46A860-5B31-463A-9E3B-40BBB89EC209</string>
+      <key>PayloadDisplayName</key>
+      <string>Australia - Sydney - au-02</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Australia - Sydney - au-02</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>au-02.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.67C5E544-7BDA-4374-A80F-89031ED396DE</string>
+      <key>PayloadUUID</key>
+      <string>1901DEA4-0D82-4D1E-8BBA-21FAB43882F8</string>
+      <key>PayloadDisplayName</key>
+      <string>Austria - Vienna - at-stream</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Austria - Vienna - at-stream</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>at-stream.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.0E7305BB-858D-44F5-BC39-B89CC5515211</string>
+      <key>PayloadUUID</key>
+      <string>A9FA0DB7-22D6-490C-BE9E-78204A57A1E7</string>
+      <key>PayloadDisplayName</key>
+      <string>Austria - Wien - at-01</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Austria - Wien - at-01</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>at-01.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.42EFC4E1-C1BD-4406-ADDD-967652D0B90B</string>
+      <key>PayloadUUID</key>
+      <string>DA0A47C3-6425-4790-A4EA-052B5E7D9CDB</string>
+      <key>PayloadDisplayName</key>
+      <string>Belgium - Brussels - bel-stream</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Belgium - Brussels - bel-stream</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>bel-stream.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.61B2EEF3-BEB8-4CF2-B398-018D4AC19772</string>
+      <key>PayloadUUID</key>
+      <string>143A8A92-C7A3-407A-AC0C-000B179ECB1F</string>
+      <key>PayloadDisplayName</key>
+      <string>Belgium - Brussel - bel-01</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Belgium - Brussel - bel-01</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>bel-01.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.BF7C5D1F-32ED-4C9B-9193-4458C61FE2F7</string>
+      <key>PayloadUUID</key>
+      <string>0A5FC3D0-97D0-4E84-9759-26FCC75B5575</string>
+      <key>PayloadDisplayName</key>
+      <string>Brazil - null - br-cf</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Brazil - null - br-cf</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>br-cf.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.5244BB46-8FE5-4262-ACBB-CC3C8D560CDB</string>
+      <key>PayloadUUID</key>
+      <string>11D50F95-AE89-4BB1-A02F-99F6607702E1</string>
+      <key>PayloadDisplayName</key>
+      <string>Bulgaria - Sofia - bg-01</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Bulgaria - Sofia - bg-01</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>bg-01.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.F24FB269-ADAB-4B29-9AF9-6A4DFF914E62</string>
+      <key>PayloadUUID</key>
+      <string>5669AB32-1408-45C8-B10E-566A8190E692</string>
+      <key>PayloadDisplayName</key>
+      <string>Canada - Montreal - hk-dbl</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Canada - Montreal - hk-dbl</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>hk-dbl.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.C4D2E09C-ED58-4F24-AAD6-66DA910BEFBA</string>
+      <key>PayloadUUID</key>
+      <string>032E9B44-34FF-4846-BC8B-0F00622717B5</string>
+      <key>PayloadDisplayName</key>
+      <string>Canada - Montreal - ca-stream</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Canada - Montreal - ca-stream</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>ca-stream.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.16914813-964C-4307-B7E8-D212734F2B28</string>
+      <key>PayloadUUID</key>
+      <string>359DE41F-3FBA-4949-BE91-AA87431028DB</string>
+      <key>PayloadDisplayName</key>
+      <string>Canada - Montreal - ca-01</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Canada - Montreal - ca-01</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>ca-01.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.69138103-B507-41D2-9447-D1AF3953AF87</string>
+      <key>PayloadUUID</key>
+      <string>8FE3BAF3-2ACE-4433-92C4-C96D6859138A</string>
+      <key>PayloadDisplayName</key>
+      <string>Colombia - Bogota - clmb</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Colombia - Bogota - clmb</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>clmb.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.9E92EBB9-298D-4DA6-89D5-088F8ED29925</string>
+      <key>PayloadUUID</key>
+      <string>C8FA6C4C-14DF-41C6-87E4-661F599EE57E</string>
+      <key>PayloadDisplayName</key>
+      <string>Czech Republic - Prague - cz-01</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Czech Republic - Prague - cz-01</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>cz-01.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.2266E934-6A1A-4C06-963F-BECC6CFA1E49</string>
+      <key>PayloadUUID</key>
+      <string>8E03D6EB-2192-42A5-84E1-64883AE70F11</string>
+      <key>PayloadDisplayName</key>
+      <string>Denmark - null - dk-01</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Denmark - null - dk-01</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>dk-01.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.34131DDC-3896-4E46-8B2C-66BDF2B4FAF4</string>
+      <key>PayloadUUID</key>
+      <string>F4B64E6A-569D-4CAF-99BE-BA186A0081B5</string>
+      <key>PayloadDisplayName</key>
+      <string>Finland - Helsinki - fi2</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Finland - Helsinki - fi2</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>fi2.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.F250D2F4-EAC9-41E4-AD4D-C6FD17645F36</string>
+      <key>PayloadUUID</key>
+      <string>D3997460-4607-4496-A17E-5D683B96B486</string>
+      <key>PayloadDisplayName</key>
+      <string>Finland - Helsinki - fi</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Finland - Helsinki - fi</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>fi.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.8C35706E-1937-4FC3-894B-1ACAEDC7B480</string>
+      <key>PayloadUUID</key>
+      <string>786BE882-63A3-445B-A09B-BC8BD092B1F6</string>
+      <key>PayloadDisplayName</key>
+      <string>Finland - Helsinki - fi</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Finland - Helsinki - fi</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>fi.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.9C9BA292-F06A-42FF-B84C-2F71AE4A6364</string>
+      <key>PayloadUUID</key>
+      <string>8AEBBD5A-C521-4825-B8A4-B481C884AE63</string>
+      <key>PayloadDisplayName</key>
+      <string>Finland - Helsinki - fi-p2p</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Finland - Helsinki - fi-p2p</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>fi-p2p.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.C5608461-1E4D-45E4-BB1B-F015A4B533E0</string>
+      <key>PayloadUUID</key>
+      <string>154E615E-77BB-48D6-8876-110C799A7E69</string>
+      <key>PayloadDisplayName</key>
+      <string>France - Paris - fr</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>France - Paris - fr</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>fr.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.9D0D2B1F-C202-466B-ADBF-AE9AE8969B2D</string>
+      <key>PayloadUUID</key>
+      <string>A597DAD2-8676-4FB7-8A7F-F275B4288329</string>
+      <key>PayloadDisplayName</key>
+      <string>France - Paris - uk-dbl</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>France - Paris - uk-dbl</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>uk-dbl.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.CB5E1A5A-9853-4A8E-AA73-3196FBDB0471</string>
+      <key>PayloadUUID</key>
+      <string>0659BA51-D549-48EF-B2CA-A06F7B6D67EA</string>
+      <key>PayloadDisplayName</key>
+      <string>Germany - null - es-dbl</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Germany - null - es-dbl</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>es-dbl.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.55C79899-167A-42A7-A8B1-E26D87E84136</string>
+      <key>PayloadUUID</key>
+      <string>BC7401CF-3A70-4CE9-AFE2-B943741E5361</string>
+      <key>PayloadDisplayName</key>
+      <string>Germany - null - de-dus1</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Germany - null - de-dus1</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>de-dus1.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.36DC5C1C-CA46-47CA-A3E7-9E5437EACF3C</string>
+      <key>PayloadUUID</key>
+      <string>4F350EA2-4761-4AC9-8E10-1C584D583148</string>
+      <key>PayloadDisplayName</key>
+      <string>Germany - null - de-dus2</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Germany - null - de-dus2</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>de-dus2.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.3952295F-B71F-44F4-870A-7017F3EB6887</string>
+      <key>PayloadUUID</key>
+      <string>B6FB9D19-1145-40DE-80DC-D5C8F8F0DF1C</string>
+      <key>PayloadDisplayName</key>
+      <string>Germany - null - de-dus1</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Germany - null - de-dus1</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>de-dus1.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.682239F9-2C30-489F-972A-49FB91DAE595</string>
+      <key>PayloadUUID</key>
+      <string>AC4E93D5-EDD5-4646-ABF9-1CE6D7E8D023</string>
+      <key>PayloadDisplayName</key>
+      <string>Germany - Dusseldorf - de-dus2</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Germany - Dusseldorf - de-dus2</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>de-dus2.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.38A29692-FD4B-4AE2-B3D6-C2BC7E2E0CC2</string>
+      <key>PayloadUUID</key>
+      <string>83017BE6-1D3C-4D69-B810-AD7F5E40D1AE</string>
+      <key>PayloadDisplayName</key>
+      <string>Germany - Frankfurt - de-01</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Germany - Frankfurt - de-01</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>de-01.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.C9F8B2E1-1D28-4953-9456-E1807A70DE75</string>
+      <key>PayloadUUID</key>
+      <string>47762494-EA4C-435E-AD53-578AD62B7E1F</string>
+      <key>PayloadDisplayName</key>
+      <string>Greece - Athina - grc</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Greece - Athina - grc</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>grc.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.701B6114-905B-4D73-A1E5-54C4C7AD2546</string>
+      <key>PayloadUUID</key>
+      <string>52DEF384-D09F-4ACA-A66E-AB76583F86BD</string>
+      <key>PayloadDisplayName</key>
+      <string>Hong Kong - HK - hk</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Hong Kong - HK - hk</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>hk.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.0C270FDD-3B59-4EBA-B039-DB1BE9C4D2E0</string>
+      <key>PayloadUUID</key>
+      <string>C29ECD72-DCAA-4585-A8A4-A1CBB5568583</string>
+      <key>PayloadDisplayName</key>
+      <string>Hungary - Budapest - hng</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Hungary - Budapest - hng</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>hng.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.A5E75B45-1DB5-4579-A286-2BEB9FE7677B</string>
+      <key>PayloadUUID</key>
+      <string>55773333-7806-4AFD-BBB9-4B044392822A</string>
+      <key>PayloadDisplayName</key>
+      <string>India - Mumbai - in-vr</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>India - Mumbai - in-vr</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>in-vr.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.D8690DED-B23B-4D5A-8FA1-16E97FF4EB29</string>
+      <key>PayloadUUID</key>
+      <string>726707E6-0993-4308-8BC6-E4BB0A344533</string>
+      <key>PayloadDisplayName</key>
+      <string>India - Mumbai - in-vr</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>India - Mumbai - in-vr</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>in-vr.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.CAF9C18A-3B6A-4AB6-BA1E-25167715EE05</string>
+      <key>PayloadUUID</key>
+      <string>D24E7FCD-302F-4B77-9CE2-E359CC54535B</string>
+      <key>PayloadDisplayName</key>
+      <string>Ireland - Dublin - ie-stream</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Ireland - Dublin - ie-stream</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>ie-stream.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.E8F0A20E-2B87-448D-9BC9-114A73A07A63</string>
+      <key>PayloadUUID</key>
+      <string>285D44D0-8487-4269-9485-1F4E5DBB29FD</string>
+      <key>PayloadDisplayName</key>
+      <string>Ireland - Dublin - ir</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Ireland - Dublin - ir</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>ir.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.4FA37E72-E375-4187-BFBB-F4D827445F7D</string>
+      <key>PayloadUUID</key>
+      <string>CC80124B-5A8F-421C-99F1-979CEE361815</string>
+      <key>PayloadDisplayName</key>
+      <string>Italy - milan - it-01</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Italy - milan - it-01</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>it-01.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.CA2BAA8D-AC09-4C1D-91AC-A3D954E9E879</string>
+      <key>PayloadUUID</key>
+      <string>4C81C1FF-B3B8-4FBA-8C30-01510219D601</string>
+      <key>PayloadDisplayName</key>
+      <string>Italy - Assago - it-stream</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Italy - Assago - it-stream</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>it-stream.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.9F4859EB-6DC8-4601-A89C-8E1F55A89CF4</string>
+      <key>PayloadUUID</key>
+      <string>350DC09F-BFC7-4EF3-A05A-477105830255</string>
+      <key>PayloadDisplayName</key>
+      <string>Japan - Tokyo - jp-stream</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Japan - Tokyo - jp-stream</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>jp-stream.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.042E4E1E-0E81-4DCE-B76E-EBA1C258A485</string>
+      <key>PayloadUUID</key>
+      <string>262BC2E1-C667-467B-A426-1590125DAC26</string>
+      <key>PayloadDisplayName</key>
+      <string>Japan - Tokyo - jp-01</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Japan - Tokyo - jp-01</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>jp-01.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.928D3F86-FB65-4B03-B76B-142012D27A0E</string>
+      <key>PayloadUUID</key>
+      <string>3CC1A4AA-BC1B-46C0-85B0-CEC7F79C266D</string>
+      <key>PayloadDisplayName</key>
+      <string>Luxembourg - null - lux1</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Luxembourg - null - lux1</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>lux1.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.18D445A8-6AD7-4CE1-988B-482391DC3746</string>
+      <key>PayloadUUID</key>
+      <string>73B14937-8026-4092-8006-866F7C67315E</string>
+      <key>PayloadDisplayName</key>
+      <string>Malaysia - null - my-cf</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Malaysia - null - my-cf</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>my-cf.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.0BC563BE-A358-481D-BA70-DD6A546FE977</string>
+      <key>PayloadUUID</key>
+      <string>D842C007-458E-43FB-A01E-CCFA9C81C1AC</string>
+      <key>PayloadDisplayName</key>
+      <string>Mexico - null - mx-cf</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Mexico - null - mx-cf</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>mx-cf.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.40A34E3F-CAC5-49C9-872B-80AF3CB52D70</string>
+      <key>PayloadUUID</key>
+      <string>A817EDF1-A572-4060-8737-BA1CC3E08565</string>
+      <key>PayloadDisplayName</key>
+      <string>Netherlands - null - nl-01</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Netherlands - null - nl-01</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>nl-01.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.1911614D-9828-4F93-9D4C-260788F9F1C7</string>
+      <key>PayloadUUID</key>
+      <string>5E4246C4-4214-4740-94F6-2276065C0764</string>
+      <key>PayloadDisplayName</key>
+      <string>Netherlands - null - nl-02</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Netherlands - null - nl-02</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>nl-02.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.FE3E5D7C-5ADF-45C1-8887-7F6A8ED8AAF9</string>
+      <key>PayloadUUID</key>
+      <string>384CB7B3-27CE-4F38-BE64-0205AEF4FE26</string>
+      <key>PayloadDisplayName</key>
+      <string>Norway - Oslo - nr-01</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Norway - Oslo - nr-01</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>nr-01.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.8A441799-4D19-4017-AB11-1ED134C7C2D5</string>
+      <key>PayloadUUID</key>
+      <string>4AB2D893-FBE6-4A06-B1D0-82EDEE45DF57</string>
+      <key>PayloadDisplayName</key>
+      <string>Poland - Gdansk - pl</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Poland - Gdansk - pl</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>pl.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.7B6FF5F8-1664-4513-9569-67A89321B40D</string>
+      <key>PayloadUUID</key>
+      <string>CF189E1B-4018-4761-ADC8-B6D959D0FCFB</string>
+      <key>PayloadDisplayName</key>
+      <string>Portugal - Lisbon - pt</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Portugal - Lisbon - pt</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>pt.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.E42EA9CF-A858-4009-B013-806688CEB79A</string>
+      <key>PayloadUUID</key>
+      <string>821DD873-4F26-4EFA-92F7-372104752A9C</string>
+      <key>PayloadDisplayName</key>
+      <string>Portugal - null - pt</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Portugal - null - pt</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>pt.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.AB88F29C-8DB4-4D11-8A18-7276FBEDE104</string>
+      <key>PayloadUUID</key>
+      <string>D22EC5BB-654F-4060-AB9F-100B9FC6788A</string>
+      <key>PayloadDisplayName</key>
+      <string>Romania - Bucharest - ro-01</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Romania - Bucharest - ro-01</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>ro-01.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.65DC1D89-4BC5-4DF2-AA25-77C1F4BA031A</string>
+      <key>PayloadUUID</key>
+      <string>7A6BEFD4-B617-47E9-A1F2-9CA8854D9410</string>
+      <key>PayloadDisplayName</key>
+      <string>Russia - Moscow - ru-vr</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Russia - Moscow - ru-vr</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>ru-vr.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.D11903A4-9524-4B1A-93DC-80B004DF1F11</string>
+      <key>PayloadUUID</key>
+      <string>32EA8B07-780B-4E92-84FF-75E6A3F39805</string>
+      <key>PayloadDisplayName</key>
+      <string>Russia - Moscow - ru-vr</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Russia - Moscow - ru-vr</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>ru-vr.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.D964AD15-1DF2-41BC-A77B-809487344E0C</string>
+      <key>PayloadUUID</key>
+      <string>1FC504DE-530E-42D2-8231-4EF9FE851744</string>
+      <key>PayloadDisplayName</key>
+      <string>Serbia - Belgrade - rs-01</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Serbia - Belgrade - rs-01</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>rs-01.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.CEE5C1CC-30C8-4FA4-8DB6-E16C52340416</string>
+      <key>PayloadUUID</key>
+      <string>BA8F1FF8-CBFA-4756-9757-66B13EF82AD2</string>
+      <key>PayloadDisplayName</key>
+      <string>Singapore - Singapore - sg-01</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Singapore - Singapore - sg-01</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>sg-01.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.591DC2ED-1049-4CA8-9E36-DD1FEA27E5F7</string>
+      <key>PayloadUUID</key>
+      <string>F408BE7A-DCB7-4EDA-9475-C32BA967B976</string>
+      <key>PayloadDisplayName</key>
+      <string>Slovakia - Bratislava - svk</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Slovakia - Bratislava - svk</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>svk.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.6969832B-9E50-4426-AC1C-B79842C5A3F8</string>
+      <key>PayloadUUID</key>
+      <string>4102F495-9BD3-47BB-BC53-3229C55973B9</string>
+      <key>PayloadDisplayName</key>
+      <string>South Africa - Johannesburg - sa-jn</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>South Africa - Johannesburg - sa-jn</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>sa-jn.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.77FCDCE6-C139-43BF-962D-A30C374DE0F0</string>
+      <key>PayloadUUID</key>
+      <string>79841EB5-8EB1-47FE-93D9-8EB7BFC41ABA</string>
+      <key>PayloadDisplayName</key>
+      <string>South Korea - Seoul - kr</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>South Korea - Seoul - kr</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>kr.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.072F23FE-8F29-4272-B18C-069A3D260CB5</string>
+      <key>PayloadUUID</key>
+      <string>D6F87DDE-4A3F-47B2-B80E-FD16AFE41BED</string>
+      <key>PayloadDisplayName</key>
+      <string>Spain - Barcelona - es-01</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Spain - Barcelona - es-01</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>es-01.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.959AEFF9-E3B6-4641-AA2E-19A646110785</string>
+      <key>PayloadUUID</key>
+      <string>24D88BD4-37E1-4783-AC01-033B5D2BB18B</string>
+      <key>PayloadDisplayName</key>
+      <string>Spain - Barcelona - es-01</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Spain - Barcelona - es-01</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>es-01.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.FF0C52DE-2C11-4CB6-A7E6-795DED5AD35B</string>
+      <key>PayloadUUID</key>
+      <string>67C970BB-A260-416F-B916-ED3F36CCBD94</string>
+      <key>PayloadDisplayName</key>
+      <string>Sweden - Stockholm - se-01</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Sweden - Stockholm - se-01</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>se-01.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.EFEE4FDD-E13A-4FA2-81E0-6FECD248070B</string>
+      <key>PayloadUUID</key>
+      <string>26CC2080-BB2D-4F10-A140-23108D18770A</string>
+      <key>PayloadDisplayName</key>
+      <string>Switzerland - Zurich - ch-01</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Switzerland - Zurich - ch-01</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>ch-01.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.E5B2F5BC-B358-4557-A47B-7E6F4C00176F</string>
+      <key>PayloadUUID</key>
+      <string>FA2C6BCC-98CA-42DF-8BF0-43F3DEB52766</string>
+      <key>PayloadDisplayName</key>
+      <string>Switzerland - Zurich - ch-01</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Switzerland - Zurich - ch-01</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>ch-01.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.C591795A-84A0-4ECE-89CE-6B46C3F2FC3A</string>
+      <key>PayloadUUID</key>
+      <string>A0D87B14-3910-4544-9306-D7F796C5AE9B</string>
+      <key>PayloadDisplayName</key>
+      <string>Turkey - Izmir - tr</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Turkey - Izmir - tr</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>tr.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.C5C54A95-5B9F-4127-962D-3E4585EE86F0</string>
+      <key>PayloadUUID</key>
+      <string>86D48E8A-3C6A-4E87-A191-BE3DAC331206</string>
+      <key>PayloadDisplayName</key>
+      <string>UAE - Dubai - uae</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>UAE - Dubai - uae</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>uae.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.D98E72D9-C1AA-4C0B-BA54-44C6B8166636</string>
+      <key>PayloadUUID</key>
+      <string>F3713505-DE4A-46BB-AE94-F17177589582</string>
+      <key>PayloadDisplayName</key>
+      <string>Ukraine - Kyyiv - ur-kv</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>Ukraine - Kyyiv - ur-kv</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>ur-kv.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.4B263CD0-E35D-4281-9735-7000D0B20D52</string>
+      <key>PayloadUUID</key>
+      <string>9E2A32DC-A4E8-4DBF-8F9D-3B12BC9D4631</string>
+      <key>PayloadDisplayName</key>
+      <string>United Kingdom - London - uk-01</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>United Kingdom - London - uk-01</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>uk-01.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.8B51D3E6-B382-45DD-B9FD-39A14105C697</string>
+      <key>PayloadUUID</key>
+      <string>0B9676B5-8E80-4D00-A177-6E4540A7AE77</string>
+      <key>PayloadDisplayName</key>
+      <string>United Kingdom - London - us-dbl1</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>United Kingdom - London - us-dbl1</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>us-dbl1.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.3AACFF64-C3AE-475B-87FF-FF341748FF0C</string>
+      <key>PayloadUUID</key>
+      <string>7844DB33-F8C5-40A5-BCCB-420440DD60BB</string>
+      <key>PayloadDisplayName</key>
+      <string>United Kingdom - London - uk-streaming</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>United Kingdom - London - uk-streaming</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>uk-streaming.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.DCA86CAA-95BD-4553-965F-8B3FD0A69DF9</string>
+      <key>PayloadUUID</key>
+      <string>E44B2026-0C53-4C26-840F-6570BBDD2895</string>
+      <key>PayloadDisplayName</key>
+      <string>United Kingdom - London - uk-02</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>United Kingdom - London - uk-02</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>uk-02.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.F5C1428E-D43C-4587-AAAE-26EEC569C861</string>
+      <key>PayloadUUID</key>
+      <string>141F5E3D-5176-4A5C-A8F5-69A1B78EBD3C</string>
+      <key>PayloadDisplayName</key>
+      <string>USA - Atlanta - us-at</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>USA - Atlanta - us-at</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>us-at.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.CBE44083-A8BA-4C2A-8CB7-57519D382DE4</string>
+      <key>PayloadUUID</key>
+      <string>CD8435C3-BCE9-4689-8955-92B6476E9B20</string>
+      <key>PayloadDisplayName</key>
+      <string>USA - Seattle - us-se</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>USA - Seattle - us-se</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>us-se.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.B2D6B093-991F-4A21-BF55-D09C214458D4</string>
+      <key>PayloadUUID</key>
+      <string>699BD28D-0F78-4D56-B636-DB06B4F9169E</string>
+      <key>PayloadDisplayName</key>
+      <string>USA - Ashburn - us-ash</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>USA - Ashburn - us-ash</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>us-ash.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.3F4CB4D7-8A48-455D-943C-743CB048B4C4</string>
+      <key>PayloadUUID</key>
+      <string>7A21D62E-E49B-42AD-B9C2-B7C2A9CEB707</string>
+      <key>PayloadDisplayName</key>
+      <string>USA - New York - us-ny1</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>USA - New York - us-ny1</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>us-ny1.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.B1F068DC-D880-40E3-AAE7-EB0E6DA637B4</string>
+      <key>PayloadUUID</key>
+      <string>974DFD20-CDB4-4E27-8486-1B202EB22F50</string>
+      <key>PayloadDisplayName</key>
+      <string>USA - Anchorage - nl-dbl</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>USA - Anchorage - nl-dbl</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>nl-dbl.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.5EED8CDF-0831-419D-AA0C-CD6137909E07</string>
+      <key>PayloadUUID</key>
+      <string>A8C3D886-F9E3-407B-A165-AB74FD88CE86</string>
+      <key>PayloadDisplayName</key>
+      <string>USA - Los Angeles - us-la</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>USA - Los Angeles - us-la</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>us-la.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.AE6B5CAC-0ED8-470F-8DDF-037F98DF734F</string>
+      <key>PayloadUUID</key>
+      <string>FF18B560-E6ED-4FF5-8A18-A51AACF28C6C</string>
+      <key>PayloadDisplayName</key>
+      <string>USA - Washington - us-wt1</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>USA - Washington - us-wt1</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>us-wt1.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.4725A4F8-CB4E-4116-A0A3-B05C28997E00</string>
+      <key>PayloadUUID</key>
+      <string>5D1BD9DC-44A9-432F-916A-4B30DD3C5D00</string>
+      <key>PayloadDisplayName</key>
+      <string>USA - Dallas - us-dl</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>USA - Dallas - us-dl</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>us-dl.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.1B2BD03A-18A1-466F-89FD-6EEF43B2E864</string>
+      <key>PayloadUUID</key>
+      <string>E72BCDDC-F172-457A-BBBA-C35CD03CB4BE</string>
+      <key>PayloadDisplayName</key>
+      <string>USA - Miami - us-mia</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>USA - Miami - us-mia</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>us-mia.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.577D6047-FA98-46FD-9920-E0E25104B2FD</string>
+      <key>PayloadUUID</key>
+      <string>4399F448-C638-4C58-86A1-94D9D7EE1462</string>
+      <key>PayloadDisplayName</key>
+      <string>USA - Fargo - us-ash-stream</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>USA - Fargo - us-ash-stream</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>us-ash-stream.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadIdentifier</key>
+      <string>com.yourcompany.vpn.41FE6305-5536-4FD2-A74F-8ADAC74AF1C5</string>
+      <key>PayloadUUID</key>
+      <string>6DB648F9-E9DE-4DEC-990F-5485E7F4C8EF</string>
+      <key>PayloadDisplayName</key>
+      <string>USA - Denver - us-dv1</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>UserDefinedName</key>
+      <string>USA - Denver - us-dv1</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <!-- Where to connect -->
+        <key>RemoteAddress</key>
+        <string>us-dv1.jumptoserver.com</string>
+        <key>RemoteIdentifier</key>
+        <string>jumptoserver.com</string>
+
+        <!-- For username/password-based IKEv2 (EAP-MSCHAPv2) -->
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <true/>
+        <key>AuthName</key>
+        <string>someUsername</string>
+        <key>AuthPassword</key>
+        <string>somePassword</string>
+
+        <!-- Certificate chain validation required for IKEv2 -->
+        <key>UseCertificateChainValidation</key>
+        <true/>
+      </dict>
+    </dict>
+  </array>
+</dict>
+</plist>
